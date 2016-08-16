@@ -35,9 +35,8 @@ Make sure the existing FiOS router is working properly before starting.
 | Mac Book Pro | 00:23:6c:92:b2:23 |  12        |
 
 
-
-
 ### 2. Prepare replacement router
+* Set replacement 
 
 ### 3. Prepare back-end router
 
