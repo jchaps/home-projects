@@ -1,9 +1,4 @@
 ## Bridging FiOS Gateway Router behind Ubiquiti Unifi Security Gateway or EdgeRouter Lite
-A handful of resources to help...  
-[Official Edge OS User Guide](https://dl.ubnt.com/guides/edgemax/EdgeOS_UG.pdf)  
-[Configuring EdgeRouter by Larry Land](http://lg.io/2015/01/11/the-ubiquiti-edgerouter-configuring-this-extremely-lowcost-enterprisegrade-router-for-home-use.html)  
-[EdgeRouter Lite Setup by Logan Marchione](https://loganmarchione.com/2016/04/ubiquiti-edgerouter-lite-setup/)  
-
 
 Note that a Gateway router isn't necessary to accomplish the bridging; any old FiOS router will do. The Gateway router is actually overkill since it only serves the MOCA portion of the network (e.g., STBs), so if you can save some $$ by using a lower grade router, do it.
 
@@ -40,8 +35,15 @@ Make sure the existing FiOS router is working properly before starting.
 | Mac Book Pro | 00:23:6c:92:b2:23 |  12        |
 
 
-### 2. Prepare replacement router
-* Set replacement 
+### 2. Prepare EdgeRouter or USG
+A handful of resources to help...  
+[Official Edge OS User Guide](https://dl.ubnt.com/guides/edgemax/EdgeOS_UG.pdf)  
+[Configuring EdgeRouter by Larry Land](http://lg.io/2015/01/11/the-ubiquiti-edgerouter-configuring-this-extremely-lowcost-enterprisegrade-router-for-home-use.html)  
+[EdgeRouter Lite Setup by Logan Marchione](https://loganmarchione.com/2016/04/ubiquiti-edgerouter-lite-setup/)  
+
+* Clone MAC Address and IP of FiOS router
+* 
+
 
 ### 3. Prepare back-end router
 
