@@ -27,12 +27,12 @@ Make sure the existing FiOS router is working properly before starting.
 |---           |---                | ---        |
 | UAP Attic    | 04:18:d6:80:70:41 |  2         |
 | UAP Kitchen  | 04:18:d6:80:70:3b |  3         |
-| Ben Cam      | c4:d6:55:36:ea:c5 |  5         |
-| Noa Cam      | c4:d6:55:35:f1:45 |  6         |
-| Marantz      | 00:06:78:24:62:ab |  8         |
-| DiskStation  | 00:11:32:19:9d:4f |  10        |
-| Mac Mini     | c4:2c:03:04:b4:a1 |  11        |
-| Mac Book Pro | 00:23:6c:92:b2:23 |  12        |
+| ~Ben Cam~    | c4:d6:55:36:ea:c5 |  5         |
+| ~Noa Cam~    | c4:d6:55:35:f1:45 |  6         |
+| Marantz      | 00:06:78:24:62:ab |  4         |
+| DiskStation  | 00:11:32:19:9d:4f |  7         |
+| Mac Mini     | c4:2c:03:04:b4:a1 |  8         |
+| Mac Book Pro | 00:23:6c:92:b2:23 |  9         |
 
 
 ### 2. Prepare EdgeRouter or USG
@@ -42,6 +42,10 @@ A handful of resources to help...
 [EdgeRouter Lite Setup by Logan Marchione](https://loganmarchione.com/2016/04/ubiquiti-edgerouter-lite-setup/)  
 
 * Clone MAC Address and IP of FiOS router
+```
+
+```
+
 * 
 
 
