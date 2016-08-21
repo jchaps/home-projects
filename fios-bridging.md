@@ -1,4 +1,9 @@
-## Bridging FiOS Gateway Router
+## Bridging FiOS Gateway Router behind Ubiquiti Unifi Security Gateway or EdgeRouter Lite
+A handful of resources to help...  
+[Official Edge OS User Guide](https://dl.ubnt.com/guides/edgemax/EdgeOS_UG.pdf)  
+[Configuring EdgeRouter by Larry Land](http://lg.io/2015/01/11/the-ubiquiti-edgerouter-configuring-this-extremely-lowcost-enterprisegrade-router-for-home-use.html)  
+[EdgeRouter Lite Setup by Logan Marchione](https://loganmarchione.com/2016/04/ubiquiti-edgerouter-lite-setup/)  
+
 
 Note that a Gateway router isn't necessary to accomplish the bridging; any old FiOS router will do. The Gateway router is actually overkill since it only serves the MOCA portion of the network (e.g., STBs), so if you can save some $$ by using a lower grade router, do it.
 
