@@ -137,20 +137,20 @@ save
 ```
 configure
 set service dhcp-server hostfile-update enable
-set service dhcp-server shared-network-name LAN subnet 10.10.2.0/24 static-mapping FiOS ip-address 10.10.2.5
-set service dhcp-server shared-network-name LAN subnet 10.10.2.0/24 static-mapping FiOS mac-address 6c:b0:ce:43:cb:8d 
-set service dhcp-server shared-network-name LAN subnet 10.10.2.0/24 static-mapping UAPAttic ip-address 10.10.2.2
-set service dhcp-server shared-network-name LAN subnet 10.10.2.0/24 static-mapping UAPAttic mac-address 04:18:d6:80:70:41
-set service dhcp-server shared-network-name LAN subnet 10.10.2.0/24 static-mapping UAPKitchen ip-address 10.10.2.3
-set service dhcp-server shared-network-name LAN subnet 10.10.2.0/24 static-mapping UAPKitchen mac-address 04:18:d6:80:70:3b
-set service dhcp-server shared-network-name LAN subnet 10.10.2.0/24 static-mapping Marantz ip-address 10.10.2.4
-set service dhcp-server shared-network-name LAN subnet 10.10.2.0/24 static-mapping Marantz mac-address 00:06:78:24:62:ab
-set service dhcp-server shared-network-name LAN subnet 10.10.2.0/24 static-mapping DiskStation ip-address 10.10.2.7
-set service dhcp-server shared-network-name LAN subnet 10.10.2.0/24 static-mapping DiskStation mac-address 00:11:32:19:9d:4f
-set service dhcp-server shared-network-name LAN subnet 10.10.2.0/24 static-mapping MacMini ip-address 10.10.2.8
-set service dhcp-server shared-network-name LAN subnet 10.10.2.0/24 static-mapping MacMini mac-address c4:2c:03:04:b4:a1
-set service dhcp-server shared-network-name LAN subnet 10.10.2.0/24 static-mapping MacBookPro ip-address 10.10.2.9
-set service dhcp-server shared-network-name LAN subnet 10.10.2.0/24 static-mapping MacBookPro mac-address 00:23:6c:92:b2:23
+set service dhcp-server shared-network-name LAN_10.10.2.0-24 subnet 10.10.2.0/24 static-mapping FiOS ip-address 10.10.2.5
+set service dhcp-server shared-network-name LAN_10.10.2.0-24 subnet 10.10.2.0/24 static-mapping FiOS mac-address 6c:b0:ce:43:cb:8d 
+set service dhcp-server shared-network-name LAN_10.10.2.0-24 subnet 10.10.2.0/24 static-mapping UAPAttic ip-address 10.10.2.2
+set service dhcp-server shared-network-name LAN_10.10.2.0-24 subnet 10.10.2.0/24 static-mapping UAPAttic mac-address 04:18:d6:80:70:41
+set service dhcp-server shared-network-name LAN_10.10.2.0-24 subnet 10.10.2.0/24 static-mapping UAPKitchen ip-address 10.10.2.3
+set service dhcp-server shared-network-name LAN_10.10.2.0-24 subnet 10.10.2.0/24 static-mapping UAPKitchen mac-address 04:18:d6:80:70:3b
+set service dhcp-server shared-network-name LAN_10.10.2.0-24 subnet 10.10.2.0/24 static-mapping Marantz ip-address 10.10.2.4
+set service dhcp-server shared-network-name LAN_10.10.2.0-24 subnet 10.10.2.0/24 static-mapping Marantz mac-address 00:06:78:24:62:ab
+set service dhcp-server shared-network-name LAN_10.10.2.0-24 subnet 10.10.2.0/24 static-mapping DiskStation ip-address 10.10.2.7
+set service dhcp-server shared-network-name LAN_10.10.2.0-24 subnet 10.10.2.0/24 static-mapping DiskStation mac-address 00:11:32:19:9d:4f
+set service dhcp-server shared-network-name LAN_10.10.2.0-24 subnet 10.10.2.0/24 static-mapping MacMini ip-address 10.10.2.8
+set service dhcp-server shared-network-name LAN_10.10.2.0-24 subnet 10.10.2.0/24 static-mapping MacMini mac-address c4:2c:03:04:b4:a1
+set service dhcp-server shared-network-name LAN_10.10.2.0-24 subnet 10.10.2.0/24 static-mapping MacBookPro ip-address 10.10.2.9
+set service dhcp-server shared-network-name LAN_10.10.2.0-24 subnet 10.10.2.0/24 static-mapping MacBookPro mac-address 00:23:6c:92:b2:23
 commit
 save
 ```
