@@ -224,6 +224,7 @@ I'm using a Netgear R6250 for my back-end router. This is probably overkill, but
     Add IP Broadband IP and Mac Address from FiOS Router
 * Configure Port Forwarding rules
   Forward the FiOS DVR (63145), FiOS Admin (4567) and FiOS TV ports (35000-35004) to the FiOS Gateway Router
+  Forward Remote Management for FiOS Router at https://10.10.2.5:58443
 
 * Turn on Remote Management ("Advanced" tab -> "Advanced Setup" -> "Remote Management")
   Remote management for Netgear at https://10.10.2.5:8443
