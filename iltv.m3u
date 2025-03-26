@@ -1,6 +1,3 @@
 #EXTM3U
 #EXTINF:-1 channel-id="RESHET" channel-number="13" tvc-guide-genres="News" tvc-guide-tags="HDTV, Live" tvc-guide-placeholders="1800" tvg-logo="https://raw.githubusercontent.com/jchaps/home-projects/refs/heads/master/images/reshet_logo.png" tvg-name="Reshet 13" tvc-guide-title="Reshet 13" tvc-guide-description="Live Reshet 13 from Israel" tvc-guide-art="https://raw.githubusercontent.com/jchaps/home-projects/refs/heads/master/images/reshet_logo.png",RESHET
 https://d18b0e6mopany4.cloudfront.net/out/v1/1a7c55961dec4c72b51d79e5d9216cff/index_4.m3u8
-
-#EXTINF:-1 channel-id="KESHET" channel-number="12" tvc-guide-genres="News" tvc-guide-tags="HDTV, Live" tvc-guide-placeholders="1800" tvg-logo="https://raw.githubusercontent.com/jchaps/home-projects/refs/heads/master/images/keshet.png" tvg-name="Keshet 12" tvc-guide-title="Keshet 12" tvc-guide-description="Live Keshet 12 from Israel" tvc-guide-art="https://raw.githubusercontent.com/jchaps/home-projects/refs/heads/master/images/keshet.png",KESHET
-https://mako-streaming.akamaized.net/stream/hls/live/2033791/k12n12wad/index.m3u8?b-in-range=0-700&hdnea=st%3D1737318657%7Eexp%3D1737319557%7Eacl%3D%2F*%7Ehmac%3D3b5ba84b0ca9916e9a4f21160b05f607d504871fb43869204a51f0a4a1986071
